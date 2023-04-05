@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RSVP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Great+Vibes&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./css/styles.css" rel="stylesheet" />
+    <script async defer src="./scripts/script.js"></script>
+  </head>
+  <body>
+    <div class="parallax">
+      <h1 id="rsvp_header">RSVP Form</h1>
+      <form id="RSVP_input">
+        <label>First Name</label>
+        <input type="text" id="input" />
+        <br /><br />
+        <label>Last Name</label>
+        <input type="text" id="input" />
+        <br /><br />
+        <label>E-mail </label>
+        <input type="text" id="input" />
+        <br /><br />
+        <label class="rsvp_choice"> 
+        <input type="radio" name="yes_no" class="rsvp_choice">Will Attend</input>
+        <input type="radio" name="yes_no" class="rsvp_choice">Will Not Attend</input>
+        </label>
+        <br /><br />
+        <input type="submit" id="input" />
+      </form>
+      <section id="navBar">
+        <button class="nav_button" id="home_btn">Home</button>
+        <button class="nav_button" id="RSVP_btn">RSVP</button>
+        <button class="nav_button" id="photos_btn">Photos</button>
+      </section>
+    </div>
+  </body>
+</html>

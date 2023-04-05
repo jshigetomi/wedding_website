@@ -1,0 +1,191 @@
+body,html {
+  text-align: center;
+  height: 100%;
+  margin:0;
+  margin-top: -20.6px;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url(../images/spring-sky.jpg);
+
+  /* Full height */
+  height: 180%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#banner {
+  position:relative;
+  top: 100px;
+  animation: fadeIn;
+}
+
+#names {
+  font-family: 'Pacifico',cursive;
+  font-size: 50px;
+}
+
+#date_header {
+  font-family: 'Great Vibes', cursive;
+  font-size: 30px;
+  margin-top: 80px;
+}
+
+#date {
+  font-family: 'Bebas Neue', cursive;
+}
+
+#time {
+  font-family: 'Bebas Neue', cursive;
+}
+
+.fade-in {
+  animation: fadeIn ease 10s;
+  -webkit-animation: fadeIn ease 10s;
+  -moz-animation: fadeIn ease 10s;
+  -o-animation: fadeIn ease 10s;
+  -ms-animation: fadeIn ease 10s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+
+#navBar {
+  display: flex;
+  background: default;
+  justify-content: center;
+  position: relative;
+  bottom: -30vh;
+}
+
+.nav_button {
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: default;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Bebas Neue', cursive;
+  margin: 5px;
+}
+
+.nav_button:hover {
+  color:rgb(166, 137, 107);
+  border: 1px solid rgb(106, 88, 70);
+}
+
+
+#main {
+  padding-top: 100px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+  justify-content: space-between;
+  
+}
+
+.pic {
+  height: auto;
+  width: 50%;
+  top: 230px;
+  border-radius: 20px;
+  animation: fadeIn 3s;
+}
+
+
+
+#RSVP_input{
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  position: relative;
+  top:200px;
+}
+
+#input {
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: 5px;
+  height: 20px;
+}
+
+#input:focus {
+  outline: none;
+}
+
+input[type="submit"]:hover {
+  color:rgb(166, 137, 107);
+  border: 1px solid rgb(106, 88, 70);
+}
+
+#rsvp_header {
+  position: relative;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 50px;
+  top: 150px;
+}
+
+label {
+  font-family: 'Bebas Neue', cursive;
+}
+
+.rsvp_choice {
+  font-family: 'Bebas Neue', cursive;
+}
+
+.rsvp_choice:checked {
+  fill: black
+}
+
